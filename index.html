@@ -1,39 +1,68 @@
-<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Matahi Historical Society homepage</title>
-    <link rel="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-    <header class="header">
-      <h1>Matahi Historical Society</h1>
-    </header>
-    <nav class="topnav">
-      <a href="#" class="topnav">Home</a></li>
-      <a href="#" class="topnav">Browse photos</a></li>
-      <a href="#" class="topnav">Submit photos</a></li>
-      <a href="#" class="topnav">Contact</a></li>
-    </nav>
-    <!-- Here is our page's main content -->
-    <main>
-      <div class="row">
-        <div class="column">
-          <h2>Column 1</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
-        <div class="column">
-          <h2>Column 2</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
-      </div>
-    </main>
-    <!-- And here is our main footer that is used across all the pages of our website -->
-    <footer class="footer">
-      <p>©Copyright 2018 by Matahi Historical Society. All rights reversed.</p>
-    </footer>
-  </body>
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <title>The Haukai Resturant</title>
+
+</head>
+
+<body>
+
+    <div class="navigation" id="mynavigation">
+    
+      <a href="#"><img src="image/logo.png"  alt="The Haukai Resturant" style: width=10% ></a>
+      
+      <a href="Menu.html">Menu</a>
+      <a href="Bookings.html">Bookings</a>
+     <a href="contact.html">About us</a>
+      <a href="#about">Staff</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+   
+
+     
+    <div class="main">
+    <div class="resturant">
+      <br>
+      <img src="image/resturant1.png" alt="picture of resturant" style: width="80%" margin-top="100%">
+    </br>
+  </div>
+  <div class="welcometext">
+    <p><b><br>Welcome</br></b></p >
+    </div>
+    <div class="paragraphtext">
+      <p>The Haukai Resturant our place is found in New Zealand the land of the long white cloud or by The Lord of the Ring movie set. 
+      you may know of the movie the Lord of the Rings. Our food at our famous hidden jem is well know and choosen with its glorous fresh flavours and a treat and 
+      food for everyone come and visit and check out what New Zealand and our resturant has to offer feel free to let us know if you any inquires.
+    </p ></div>
+
+
+
+   
+     </div>
+  
+    <script>
+    function myFunction() {
+      var x = document.getElementById("mynavigation");
+      if (x.className === "navigation") {
+        x.className += " responsive";
+      } else {
+        x.className = "navigation";
+      }
+    }
+    </script>
+
+
+<div class="footer">
+  <p style="margin-left: 100px;"> &copy; The Haukai Resturant designed up Britney</p>
+  <p style="margin-left: 100px;"><a href="contact.html" style="color:white">Privacy Statement</a></p>
+  </div>
+
+</body>
+
+  </html>
